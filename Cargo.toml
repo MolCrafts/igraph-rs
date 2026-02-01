@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "igraph",
+  "igraph-sys",
+]
+resolver = "2"

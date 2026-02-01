@@ -1,0 +1,9 @@
+[package]
+name = "igraph"
+version = "0.1.0"
+edition = "2024"
+description = "High-level Rust API for the igraph library"
+
+[dependencies]
+igraph-sys = { path = "../igraph-sys" }
+thiserror = "2"
