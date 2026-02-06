@@ -4,4 +4,5 @@
 #![allow(deref_nullptr)]
 #![allow(clippy::all)]
 
-include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+mod bindings;
+pub use bindings::*;
